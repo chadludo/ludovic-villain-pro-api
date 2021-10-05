@@ -14,6 +14,7 @@ class Api::V1::ProjectsController < Api::V1::BaseController
       render :show
     else
       render_error
+    end
   end
 
     def create
@@ -24,6 +25,7 @@ class Api::V1::ProjectsController < Api::V1::BaseController
         render :show
       else
         render_error
+      end
     end
 
   private
