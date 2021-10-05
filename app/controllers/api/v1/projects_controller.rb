@@ -17,16 +17,16 @@ class Api::V1::ProjectsController < Api::V1::BaseController
     end
   end
 
-    def create
-      @project = Project.new(project_params)
-      @project.user = current_user 
-      authorize @project
-      if @project.save
-        render :show
-      else
-        render_error
-      end
+  def create
+    @project = Project.new(project_params)
+    @project.user = current_user 
+    authorize @project
+    if @project.save
+      render :show
+    else
+      render_error
     end
+  end
 
   private
 
