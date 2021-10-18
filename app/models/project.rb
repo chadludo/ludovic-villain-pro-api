@@ -1,7 +1,7 @@
 class Project < ApplicationRecord
   belongs_to :user
   belongs_to :category
-  has_many_attached :pictures
+  has_one_attached :image
 
   validates :name, presence: true
 end
