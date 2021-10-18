@@ -1,0 +1,15 @@
+current directory: /Users/ludovic/code/chadludo/ludovic-villain-pro-api/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/ludovic/.rbenv/versions/2.6.3/bin/ruby -I /Users/ludovic/.rbenv/versions/2.6.3/lib/ruby/2.6.0 -r ./siteconf20211015-70518-10ctjfh.rb extconf.rb
+creating Makefile
+
+current directory: /Users/ludovic/code/chadludo/ludovic-villain-pro-api/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/ludovic/code/chadludo/ludovic-villain-pro-api/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/ludovic/code/chadludo/ludovic-villain-pro-api/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20211015-70518-bv5muk/skiptrace/internal

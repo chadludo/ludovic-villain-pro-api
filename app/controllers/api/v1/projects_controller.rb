@@ -36,7 +36,7 @@ class Api::V1::ProjectsController < Api::V1::BaseController
   end
 
   def project_params
-    params.require(:project).permit(:name, :description, :role, :date, :pictures)
+    params.require(:project).permit(:name, :description, :role, :date, pictures: [])
   end
 
   def render_error
